@@ -12,7 +12,7 @@ export default function InsertProduct() {
     const setName = (e) => {
         setProductName(e.target.value);
       };
-    
+
       const setPrice = (e) => {
         setProductPrice(e.target.value);
       };
@@ -22,6 +22,7 @@ export default function InsertProduct() {
         setProductBarcode(value);
     };
 
+    
     const {id} = useParams("");
 
     useEffect(() => {
